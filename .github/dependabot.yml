@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "ExtensionTemplateProject"
+    schedule:
+      interval: "daily" # TODO: Change to weekly if this works
