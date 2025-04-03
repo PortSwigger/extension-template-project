@@ -28,7 +28,7 @@ For more information on Montoya API features, see the [JavaDoc](https://portswig
 
 To explore example extensions, visit our [GitHub repository](https://github.com/PortSwigger/burp-extensions-montoya-api-examples).
 
-For more information on creating extensions, see our [documentation](https://portswigger.net/burp/documentation/desktop/extensions/creating).
+For more information on creating extensions, see our [documentation](https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/creating).
 
 If you have any questions or need help from the community, join our [Discord channel](https://discord.com/channels/1159124119074381945/1164175825474686996).
 
@@ -81,4 +81,4 @@ Once you've built your extension, we'd love to see what you've created!
 Share your extension on our [PortSwigger Discord](https://discord.com/channels/1159124119074381945/1164175825474686996) #extensions channel to get feedback, showcase your work, and connect with other developers.
 Then take it to the next level by submitting your extension to the BApp store, making it available to the community of 80,000+ users worldwide.
 
-For guidance on the submission process, see [Submitting extensions to the BApp store](https://portswigger.net/burp/documentation/desktop/extensions/creating/bapp-store-submitting-extensions).
+For guidance on the submission process, see [Submitting extensions to the BApp store](https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/creating/bapp-store-submitting-extensions).
