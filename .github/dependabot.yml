@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "gradle"
-    directory: "ExtensionTemplateProject"
+    directory: "/"
     schedule:
       interval: "monthly"
