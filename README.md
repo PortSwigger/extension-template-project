@@ -24,14 +24,33 @@ The template contains the following components for building your extension:
 * The `initialize` method. This is the entry point for your extension. It is called when the extension is loaded and receives a [montoyaApi](https://portswigger.github.io/burp-extensions-montoya-api/javadoc/burp/api/montoya/MontoyaApi.html) argument, which provides access to all Montoya API features.
 * The `Extension` class. This implements the BurpExtension interface, so your extension is recognized and loaded by Burp.
 
-For more information on Montoya API features, see the [JavaDoc](https://portswigger.github.io/burp-extensions-montoya-api/javadoc/burp/api/montoya/MontoyaApi.html).
+#### Related resources
 
-To explore example extensions, visit our [GitHub repository](https://github.com/PortSwigger/burp-extensions-montoya-api-examples).
+* For more information on Montoya API features, see the [JavaDoc](https://portswigger.github.io/burp-extensions-montoya-api/javadoc/burp/api/montoya/MontoyaApi.html).
+* To explore example extensions, visit our [GitHub repository](https://github.com/PortSwigger/burp-extensions-montoya-api-examples).
+* For more information on creating extensions, see our [documentation](https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/creating).
+* For a beginner tutorial, see [Writing your first extension](https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/creating/first-extension).
+* If you have any questions or need help from the community, join our [Discord channel](https://discord.com/channels/1159124119074381945/1164175825474686996).
 
-For more information on creating extensions, see our [documentation](https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/creating).
+### Vibe Coding Your Extension with AI
 
-If you have any questions or need help from the community, join our [Discord channel](https://discord.com/channels/1159124119074381945/1164175825474686996).
+You can use an LLM to help you write your extension. To support this, we've included a [`CLAUDE.md`](./CLAUDE.md) file and supporting [documentation](./docs) that provide essential context for the model.
 
+#### Vibe Coding with Claude Code
+
+To use this file with Claude Code:
+
+1. Open a terminal and navigate to the `ExtensionTemplateProject` folder.
+2. Run Claude Code using the following command: `claude`.
+3. Prompt Claude to create some code for your extension.
+
+Claude should automatically read the contents of the `ExtensionTemplateProject` folder, including the `CLAUDE.md` file, then create draft code for you to review. If you think it hasn't read the `CLAUDE.md` file, directly prompt it to do so before continuing.
+
+#### Vibe Coding with Other LLMs
+
+If you're using an LLM other than Claude Code, prompt the LLM to read the `CLAUDE.md` file and supporting documentation from the `docs` folder, or provide their contents as part of your context window.
+
+---
 
 ## Building your extension
 
@@ -73,6 +92,7 @@ To quickly reload your extension in Burp:
 1. In Burp, go to **Extensions > Installed**.
 2. Hold `Ctrl` or `⌘`, and select the **Loaded** checkbox next to your extension.
 
+---
 
 ## Sharing your extension
 
